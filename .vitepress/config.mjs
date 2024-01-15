@@ -2,12 +2,9 @@ import { defineConfig } from 'vitepress'
 // config.ts
 
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
-    themeConfig: {
-    editLink: {
-      pattern: 'https://github.com/GSQZ/CSMusic/edit/master/:path'
-    }
-  },
+  lastUpdated: true,
   markdown: {
     container: {
       tipLabel: '提示',
@@ -21,6 +18,12 @@ export default defineConfig({
   description: "简繁音乐,简繁,音乐,csm，简繁音乐csm,青旨音乐,原创简约轻量免费的音乐播放器",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   themeConfig: {
+    lastUpdatedText: "最后更新于",
+    docFooter: { prev: '上一篇', next: '下一篇' },
+    editLink: {
+      pattern: 'https://github.com/GSQZ/CSMusic/edit/master/:path',
+      text: '在Github编辑此页'
+    },
     logo: '/logo.png',
     siteTitle: '简繁音乐',
     footer:{

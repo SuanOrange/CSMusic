@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     themeConfig: {
     editLink: {
-      pattern: 'https://github.com/GSQZ/CSMusic/edit/main/docs/:path'
+      pattern: 'https://github.com/GSQZ/CSMusic/edit/master/:path'
     }
   },
   markdown: {

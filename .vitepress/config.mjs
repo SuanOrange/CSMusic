@@ -27,7 +27,7 @@ export default defineConfig({
     logo: '/logo.png',
     siteTitle: '简繁音乐',
     footer:{
-      message: '仅供学习交流',
+      message: '本软件仅供学习交流，请勿用于非法用途',
       copyright:"Copyright © 2022-2024 @是青旨啊"
     },
     outlineTitle:"文章目录",

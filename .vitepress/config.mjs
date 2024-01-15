@@ -3,6 +3,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/GSQZ/CSMusic/edit/main/docs/:path'
+    }
+  },
   markdown: {
     container: {
       tipLabel: '提示',

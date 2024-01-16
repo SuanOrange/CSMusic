@@ -16,7 +16,7 @@ export default defineConfig({
   },
   title: "简繁音乐",
   description: "简繁音乐,简繁,音乐,csm，简繁音乐csm,青旨音乐,原创简约轻量免费的音乐播放器",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "https://s11.ax1x.com/2024/01/16/pFF5dWF.png" }]],
   themeConfig: {
     lastUpdatedText: "最后更新于",
     docFooter: { prev: '上一篇', next: '下一篇' },

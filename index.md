@@ -7,7 +7,7 @@ hero:
   text: "大道至简，衍化至繁"
   tagline: 原创简约轻量免费的音乐播放器
   image:
-    src: /music.png
+    src: https://s11.ax1x.com/2024/01/16/pFF5wz4.png
     alt: 背景图
   actions:
     - theme: brand

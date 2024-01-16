@@ -14,6 +14,11 @@ export default defineConfig({
       detailsLabel: '详细信息'
     }
   },
+  head: [
+    [
+        'script', { type: 'text/javascript', src: '//sdk.51.la/js-sdk-pro.min.js?id=JrSeWPqWfjCoC4m5&ck=JrSeWPqWfjCoC4m5' }
+    ]
+],
   title: "简繁音乐",
   description: "简繁音乐,简繁,音乐,csm，简繁音乐csm,青旨音乐,原创简约轻量免费的音乐播放器",
   head: [["link", { rel: "icon", href: "/logo.png" }]],

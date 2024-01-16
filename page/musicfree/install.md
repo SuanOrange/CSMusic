@@ -10,5 +10,5 @@
  [MusicFree安装包](https://cdn.sayqz.com/csm/musicfree.apk)
 ## 如何使用插件
 在此，我们直接给出MusicFree官方的插件使用方法！
-![简繁音乐V2.0.0](pic1.png "pic")
+![简繁音乐V2.0.0](https://s11.ax1x.com/2024/01/16/pFF53ss.png "pic")
 若想体验由简繁音乐提供的服务，您需点击 **从网络安装** 按钮，然后在弹出的输入框中输入https://csm.sayqz.com/js/app/app.js 并确定安装，安装完成后您就可以享受由简繁音乐提供的免费音乐服务了！

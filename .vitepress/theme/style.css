@@ -75,15 +75,15 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-button-brand-border: transparent;
-  --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
-  --vp-button-brand-hover-border: transparent;
-  --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
-  --vp-button-brand-active-border: transparent;
-  --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+  --vp-button-brand-border: #536976;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: #536976;
+  --vp-button-brand-hover-border: #292a3a;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-hover-bg: #292a3a;
+  --vp-button-brand-active-border: #536976;
+  --vp-button-brand-active-text: #ffffff;
+  --vp-button-brand-active-bg: #536976;
 }
 
 /**
@@ -94,14 +94,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    #292a3a 30%,
+    #536976
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    #292a3a 50%,
+    #536976 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -117,7 +117,24 @@
     --vp-home-hero-image-filter: blur(68px);
   }
 }
-
+/* .vitepress\theme\style.css*/
+.vp-doc a:before {
+  content: '➹';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  color: #536976; /* 修改文字颜色 */
+  font-size: 13px;
+  border: 3px solid #536976; /* 修改边框颜色 */
+  margin-right: 8px;
+  margin-left: 4px;
+  line-height: 15px;
+  padding-left: 0px;
+}
 /**
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
@@ -137,3 +154,30 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* style.css */
+.vp-doc a {
+  text-decoration: none;
+  color: #536976;
+}
+/* .vitepress\theme\style\var.css */
+/* 提示框背景颜色 */
+:root {
+  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+}
+
+/* 提示框 */
+.custom-block.tip {
+  border-color: var(--vp-c-green-2);
+}
+
+/* 警告框 */
+.custom-block.warning {
+  /* border-color: #d97706; */
+  border-color: var(--vp-c-yellow-2);
+}
+
+/* 危险框 */
+.custom-block.danger {
+  /* border-color: #f43f5e; */
+  border-color: var(--vp-c-red-2);
+}

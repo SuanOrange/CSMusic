@@ -10,4 +10,4 @@
 这很简单，因为被杀毒软件杀掉了/(ㄒoㄒ)/~~无论您使用的是火绒也好，360也罢，简繁音乐安装程序都会被当作病毒从而被消灭，解决办法是提前创建好一个文件夹，并将该文件夹加入到杀毒软件的白名单中，此后在安装程序中选择安装目录时也应选择该目录！若您是尊贵的Windows defender用户，那么您只需关闭云提供的保护与实时保护功能即可！   
 ### 😨不会真的有病毒吧
 简繁音乐Windows客户端基于易语言开发，在程序运行时会直接调用系统级API NtQueryInformationProcess，这不是官方的公开API，微软推荐开发者使用更高级别的 Win32 API，例如 GetProcessInformation，因为这些 API 更稳定，且有更好的向后兼容性。所以这就导致简繁音乐在安装或使用时会报毒┭┮﹏┭┮。在此我们承诺，简繁音乐无任何损害计算机的行为！详细信息可点击下方链接查看腾讯哈勃分析系统对简繁音乐本体的检测。
-🐾[分析结果](https://habo.qq.com/file/showdetail?md5=5c3514fe129faa1ec69627b0636ccf68&pk=ADYGZl1uB2cIOFs7U2E%3D "分析结果")  
+[分析结果](https://habo.qq.com/file/showdetail?md5=5c3514fe129faa1ec69627b0636ccf68&pk=ADYGZl1uB2cIOFs7U2E%3D "分析结果")  
